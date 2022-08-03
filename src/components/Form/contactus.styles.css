@@ -1,0 +1,155 @@
+.formStyles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto
+}
+
+.form__group {
+    font-family: var(--global-font-family3);
+    font-weight: 700;
+    position: relative;
+    padding: 15px 0 0;
+    margin: 20px 0px;
+    width: 50%;
+  }
+
+  @media (max-width: 768px) {
+    .form__group{
+      width: auto;
+    }
+  }
+
+  .form__field {
+    font-family: var(--global-font-family3);
+    font-weight: 900;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid var(--text-light);
+    outline: 0;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+  .form__field::placeholder {
+    color: transparent;
+  }
+  .form__field:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+  }
+  
+  .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: var(--text-light);
+  }
+  
+  .form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 900;
+    border-width: 3px;
+    border-image: linear-gradient(135deg, #CB5EEE 0%, #4BE1EC 100%);
+    border-image-slice: 1;
+  }
+  .form__field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #CB5EEE;
+    font-weight: 900;
+  }
+  
+  /* reset input */
+  .form__field:required, .form__field:invalid {
+    box-shadow: none;
+  }
+  
+  /* button */
+  input[type=submit]{
+    margin-left: 0.5em;
+    height: 2.5em;
+    padding: 0.2em 1em 0.2em 2.25em;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: var(--global-font-family3);
+    color: var(--text-light);
+    background: url(https://i.imgur.com/Th606mh.png) no-repeat scroll 0.75em 0.07em transparent;
+    background-size: 27px 102px;
+    border-radius: 2em;
+    border: 0.15em solid var(--text-light);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  input[type="submit"]:hover {
+      color: #fff;
+
+      border-color: #AF40FF;
+      background-position: 0.75em bottom;
+      -webkit-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+  }
+  input[type="submit"]:focus {
+      background-position: 2em -4em;
+      -webkit-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+  }
+  /* Webfonts */
+  
+/*  @font-face {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 900;
+      src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+  }*/
+
+  .myButton {
+	background:linear-gradient(to bottom, #ca5eee 5%, #4be1ec 100%);
+	background-color:#ca5eee;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #4be1ec 5%, #ca5eee 100%);
+	background-color:#4be1ec;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.alert{
+  border: 3px solid #AF40FF;
+  border-radius: 25px;
+  font-family: var(--global-font-family3);
+  font-weight: 800;
+  text-align: center;
+}
+
+.alert h3{
+  color: #fff;
+}
+.alert>p{
+  color: var(--text-light);
+}
+
+        

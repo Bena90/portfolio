@@ -1,0 +1,241 @@
+.sectionService{
+    background-color: black;
+    padding-bottom: 5rem;
+
+}
+
+.serviceContainer{
+    background-color: black;
+}
+
+.serviceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serviceContainer h3 {
+    font-family: var(--global-font-family3) !important;
+    font-weight: 900;
+    text-align: left;
+    font-size: 28px;
+    color: #fff !important;
+
+}
+
+.serviceInfoContainer>h5{
+    font-family: var(--global-font-family3);
+    color: #fff;
+    font-weight: 800;
+    padding: 1rem 0;
+    font-size: 25px;
+}
+.skillsContainer {
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    gap: 40px
+
+}
+
+.skillsContainer>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+}
+
+.skillsContainer>div>p {
+    font-family: var(--global-font-family3);
+    color: var(--text-light);
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+    .skillsContainer>div>p {
+        font-size: 16px;
+    }
+}
+
+.skillsContainer>div>img {
+    width: 100%;
+    
+}
+/*
+@keyframes rubberBand{
+    0%{
+        transform: scale3d(1,1,1);
+    }
+    35%{
+        transform: scale3d(1.25,.75,1);
+    }
+    45%{
+        transform: scale3d(.75,1,1);
+    }
+    60%{
+        transform: scale3d(1.2,.8,1);
+    }
+    75%{
+        transform: scale3d(1.05,.95,1);
+    }
+    100%{
+        transform: scale3d(1,1,1); 
+    }
+}
+
+ From uiverse.io by @Z-C-Code 
+@keyframes square-animation {
+ 0% {
+  left: 0;
+  top: 0;
+ }
+
+ 10.5% {
+  left: 0;
+  top: 0;
+ }
+
+ 12.5% {
+  left: 150px;
+  top: 0;
+ }
+
+ 23% {
+  left: 150px;
+  top: 0;
+ }
+
+ 25% {
+  left: 300px;
+  top: 0;
+ }
+
+ 35.5% {
+  left: 300px;
+  top: 0;
+ }
+
+ 37.5% {
+  left: 300px;
+  top: 150px;
+ }
+
+ 48% {
+  left: 300px;
+  top: 150px;
+ }
+
+ 50% {
+  left: 150px;
+  top: 150px;
+ }
+
+ 60.5% {
+  left: 150px;
+  top: 150px;
+ }
+
+ 62.5% {
+  left: 150px;
+  top: 300px;
+ }
+
+ 73% {
+  left: 150px;
+  top: 300px;
+ }
+
+ 75% {
+  left: 0;
+  top: 300px;
+ }
+
+ 85.5% {
+  left: 0;
+  top: 300px;
+ }
+
+ 87.5% {
+  left: 0;
+  top: 150px;
+ }
+
+ 98% {
+  left: 0;
+  top: 150px;
+ }
+
+ 100% {
+  left: 0;
+  top: 0;
+ }
+}
+
+.loaderContainer{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.loader {
+ position: relative;
+ width: 400px;
+ height: 400px;
+ /*transform: rotate(45deg);
+ background-color: none;
+}
+
+.loader-square {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 95px;
+ height: 95px;
+ margin: 0px;
+ border-radius: 0px;
+ background: none;
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+ animation: square-animation 15s ease-in-out infinite both;
+}
+
+.loader-square >img {
+    width: 100%;
+}
+
+.loader-square:nth-of-type(0) {
+ animation-delay: 0s;
+}
+
+.loader-square:nth-of-type(1) {
+ animation-delay: -2.14285714285s;
+}
+
+.loader-square:nth-of-type(2) {
+ animation-delay: -4.28571428571s;
+}
+
+.loader-square:nth-of-type(3) {
+ animation-delay: -6.42857142857s;
+}
+
+.loader-square:nth-of-type(4) {
+ animation-delay: -8.57142857142s;
+}
+
+.loader-square:nth-of-type(5) {
+ animation-delay: -10.7142857142s;
+}
+
+.loader-square:nth-of-type(6) {
+ animation-delay: -12.8571428571s;
+}
+
+.loader-square:nth-of-type(7) {
+ animation-delay: -15s;
+}
+*/

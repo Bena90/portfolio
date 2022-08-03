@@ -1,0 +1,142 @@
+
+.main-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: var(--global-font-family3);
+    width: 100%;
+}
+
+.main-container h2{
+    font-size: 5rem;
+    font-weight: 700;
+    margin: -10px 0;
+    text-indent: 3px;
+    margin: 1px 0px;
+    letter-spacing: -1px;
+}
+
+.main-container h4{
+    color: grey;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+@media (max-width: 1000px) {
+    .main-container h2{
+        font-size: 2.5rem;
+    }
+
+    .main-container h3 {
+        font-size: 1.8rem;
+    }
+
+    .main-container h4{
+        font-size: 1.0rem;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .main-container h2{
+        font-size: 1.5rem;
+    }
+    .main-container h3 {
+        font-size: 1rem;
+    }
+    .main-container span {
+        font-size: 0.3rem;
+    }
+}
+
+.main-container h1:hover{
+    animation: rubberBand 1s;
+    color: var(--global-color-violet);
+}
+
+.main-container h2:hover{
+    
+    animation: rubberBand 1s !important;
+    -webkit-text-fill-color: #FF3366;
+    color: #FF3366;
+}
+
+.beStyle > h2{
+    background-image: var(--global-color-gradient1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+}
+
+.main-container>div>div>div>h2:hover{
+    animation: rubberBand 1s;
+}
+
+.main-container>div>div>h2:hover{
+    animation: rubberBand 1s;
+}
+
+@keyframes rubberBand{
+    0%{
+        transform: scale3d(1,1,1);
+    }
+    35%{
+        transform: scale3d(1.25,.75,1);
+    }
+    45%{
+        transform: scale3d(.75,1,1);
+    }
+    60%{
+        transform: scale3d(1.2,.8,1);
+    }
+    75%{
+        transform: scale3d(1.05,.95,1);
+    }
+    100%{
+        transform: scale3d(1,1,1); 
+    }
+}
+
+/* Button */ 
+.resumeButton{
+    margin-left: 0.5em;
+    height: 2em;
+    margin-top: 20px;
+    padding: 0.2em 1em 0.2em 2.25em;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: var(--global-font-family3);
+    color: var(--text-light);
+    background: url(https://i.imgur.com/Th606mh.png) no-repeat scroll 0.75em 0.07em transparent;
+    background-size: 12px 52px;
+    border-radius: 2em;
+    border: 0.15em solid var(--text-light);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  .resumeButton:hover {
+      color: #fff;
+
+      border-color: #AF40FF;
+      background-position: 0.75em bottom;
+      -webkit-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+  }
+  .resumeButton:focus {
+      background-position: 2em -4em;
+      -webkit-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+  }
+
+  .resumeButton a {
+    text-decoration: none;
+  }
+  .resumeButton a:hover {
+    color: var(--text-light);
+  }
+
+

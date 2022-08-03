@@ -1,0 +1,19 @@
+.footerSection{
+    background-color: black;
+    margin: 0 auto;
+}
+
+.footerDiv{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 2rem 0;
+    gap: 10px;
+    width: 80%;
+    border-top: 2px solid rgba(255, 255, 255, 0.137);
+
+}
+
+.footerSection p{
+    font-style: italic;
+}
