@@ -4,7 +4,7 @@ export const Main = () => {
     return (
         <>
             <div id='home' className='main-container ps-5'> 
-                    <div className=''> 
+                    <div className=''>
                         <div className = 'd-flex'>
                             <h2>H</h2>
                             <h2>i</h2>

@@ -7,6 +7,7 @@
     color: white;
     font-family: var(--global-font-family3);
     width: 100%;
+
 }
 
 .main-container h2{
@@ -136,8 +137,7 @@
     text-decoration: none;
     color: var(--text-light);
   }
-  .resumeButton a:hover {
+  .resumeButton a:hover, a:link, a:focus, a:active, a:visited {
     color: var(--text-light);
   }
-
 

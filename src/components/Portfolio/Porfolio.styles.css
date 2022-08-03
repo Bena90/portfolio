@@ -46,6 +46,11 @@
     height: fit-content;
 }
 
+
+.imagesContainer img {
+    width: 400px;
+}
+
 .infoContainer{
     width: 60%;
 }
@@ -140,4 +145,10 @@
     font-size: 16px;
     min-width: 150px;
   }
+}
+
+@media (max-width: 450px) {
+    .imagesContainer img {
+        width: 100%;
+    }
 }

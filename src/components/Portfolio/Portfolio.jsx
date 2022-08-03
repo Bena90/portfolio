@@ -53,7 +53,7 @@ export const Portfolio  = () => {
                     </div>
                     <div className='projectsCard'>
                         <div className='imagesContainer'>
-                            <img className='projectsImg' width={400} src='/roccoto.png' alt='roccoto' />
+                            <img className='projectsImg' src='/roccoto.png' alt='roccoto' />
                         </div>
                         <div className='infoContainer'>
                             <h3>Roccoto Gourmet</h3>
