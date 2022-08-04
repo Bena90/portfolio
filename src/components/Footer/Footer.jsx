@@ -6,7 +6,7 @@ const Footer = () => {
     <section className="footerSection">
         <div className='footerDiv'>
             <p>by</p>
-            <h5 className='logoBeCode contenedor-hidden'> Esteban M Benabarre </h5>
+            <h5 className='logoBeCode'> Esteban M Benabarre </h5>
         </div>
     </section>
   )

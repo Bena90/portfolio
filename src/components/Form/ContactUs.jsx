@@ -3,9 +3,8 @@ import emailjs from '@emailjs/browser';
 import './contactus.styles.css';
 
 const ContactUs = () => {
-  const [ alert, setAlert ] = useState(true)
+  const [ alert, setAlert ] = useState(false)
   const form = useRef();
-
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -37,7 +36,6 @@ const ContactUs = () => {
           </div>
         )
       }
-      
       <div className="form__group field">
         <input
           type="text"
