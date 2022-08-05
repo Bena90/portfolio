@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import './contactus.styles.css';
 
 const ContactUs = () => {
-  const [ alert, setAlert ] = useState(true)
+  const [ alert, setAlert ] = useState(false)
   const form = useRef();
 
   const sendEmail = (e) => {
