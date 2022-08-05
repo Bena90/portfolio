@@ -3,7 +3,7 @@ import './Main.styles.css';
 export const Main = () => {
     return (
         <>
-            <div id='home' className='main-container ps-5'> 
+            <div id='home' className='main-container'> 
                     <div className=''>
                         <div className = 'd-flex'>
                             <h2>H</h2>

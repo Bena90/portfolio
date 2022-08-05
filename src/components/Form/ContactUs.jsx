@@ -71,7 +71,7 @@ const ContactUs = () => {
         <label htmlFor="message" className="form__label">Message</label>
       </div>
 
-      <input type="submit" value="Send" disabled={!alert} />
+      <input type="submit" value="Send" disabled={alert} />
     </form>
   );
 };
