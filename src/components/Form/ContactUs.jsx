@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import './contactus.styles.css';
 
 const ContactUs = () => {
-  const [ alert, setAlert ] = useState(false)
+  const [ alert, setAlert ] = useState(true)
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -30,7 +30,7 @@ const ContactUs = () => {
     >
       {
         alert && (
-          <div className='alert'>
+          <div className='alerts'>
               <h3>Thanks for contacting me!</h3>
               <p>I will be responding as soon as possible.</p>
           </div>

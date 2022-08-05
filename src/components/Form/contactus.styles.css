@@ -137,18 +137,19 @@
 	top:1px;
 }
 
-.alert{
+.alerts{
   border: 3px solid #AF40FF;
   border-radius: 25px;
+  padding: 16px 20px 8px 20px;
   font-family: var(--global-font-family3);
   font-weight: 800;
   text-align: center;
 }
 
-.alert h3{
+.alerts h3{
   color: #fff;
 }
-.alert>p{
+.alerts>p{
   color: var(--text-light);
 }
 
