@@ -29,7 +29,7 @@ export const Portfolio  = () => {
                 <div className="projectsContainer">
                     <div className='projectsCard'>
                         <div className='imagesContainer'>
-                            <img className='projectsImg' width={400} src='/plantusqui.png' alt='plantusqui' />
+                            <img className='projectsImg' src='/plantusqui.png' alt='plantusqui' />
                         </div>
                         <div className='infoContainer'>
                             <h3>Plantusqui</h3>
@@ -150,7 +150,7 @@ export const Portfolio  = () => {
                     </div>
                     <div className='projectsCard'>
                         <div className='imagesContainer'>
-                            <img className='projectsImg' width={400} src='/crypto.png' alt='roccoto' />
+                            <img className='projectsImg' src='/crypto.png' alt='roccoto' />
                         </div>
                         <div className='infoContainer'>
                             <h3>Crypto Price</h3>
@@ -180,7 +180,7 @@ export const Portfolio  = () => {
                     </div>
                     <div className='projectsCard'>
                         <div className='imagesContainer'>
-                            <img className='projectsImg' width={400} src='/citas.png' alt='roccoto' />
+                            <img className='projectsImg' src='/citas.png' alt='roccoto' />
                         </div>
                         <div className='infoContainer'>
                             <h3>Citas Appets</h3>
