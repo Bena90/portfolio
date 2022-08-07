@@ -6,6 +6,11 @@ import SvgReact from '../../utils/SvgReact';
 import SvgSass from '../../utils/SvgSass';
 import SvgBootstrap from '../../utils/SvgBootstrap';
 import SvgTailwind from '../../utils/SvgTailwind';
+import SvgNext from '../../utils/SvgNext';
+import SvgMySQL from '../../utils/SvgMySQL';
+import SvgMongo from '../../utils/SvgMongo';
+import SvgExpress from '../../utils/SvgExpress';
+import SvgNode from '../../utils/SvgNode';
 import './Porfolio.styles.css';
 
 export const Portfolio  = () => {
@@ -82,28 +87,62 @@ export const Portfolio  = () => {
                     </div>
                     <div className='projectsCard'>
                         <div className='imagesContainer'>
-                            <img className='projectsImg' width={400} src='/citas.png' alt='roccoto' />
+                            <img className='projectsImg' src='/kiosko.png' alt='kioskoimage' />
                         </div>
                         <div className='infoContainer'>
-                            <h3>Citas Appets</h3>
-                            <p> 
-                                I want to present you a simple application for veterinary patients made with React, Formik and Tailwind.
+                            <h3>App Kiosko</h3>
+                            <p>
+                                This project is an application made in a course in Udemy with NextJS, Prisma and TailwindCSS 🥦​
                             </p>
                             <p>
                             💻​​ Languages and tools used: 
                             </p>
                             <p>
-                                | <SvgReact/> React JS | <SvgTailwind /> Tailwind |
+                            | <SvgNext /> Next | <SvgMySQL /> MySQL | <SvgJavascript/> Javascript | <SvgTailwind/> TailwindCSS |
                             </p>
                             <div className='portfolioButtonContainer'>
                                 <button className='button-64'>
                                     <span className="text">
-                                        <a target="_blank" rel="noopener noreferrer" href="https://citasappets.netlify.app/">View Website</a>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://roccotogourmet.000webhostapp.com/">View Website</a>
                                     </span>
                                 </button>
                                 <button className='button-64'>
                                     <span className="text">
-                                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Bena90/citasappets">View Github</a>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Bena90/roccoto_gourmet/">View Github</a>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='projectsCard'>
+                        <div className='imagesContainer'>
+                            <img className='projectsImg' src='/uptask.png' alt='uptaskimage' />
+                        </div>
+                        <div className='infoContainer'>
+                            <h3>UpTask App</h3>
+                            <p>
+                                This is a MERN Full Stack Project to administer and manage projects and tasks.
+                            </p>
+                            <p>
+                            💻​​ Languages and tools used: 
+                            </p>
+                            <p>
+                            | <SvgReact /> React | <SvgExpress /> Express | <SvgMongo/> Mongo |  <SvgNode/> Node | <SvgTailwind/> TailwindCSS |
+                            </p>
+                            <div className='portfolioButtonContainer'>
+                                <button className='button-64'>
+                                    <span className="text">
+                                        <a target="_blank" rel="noopener noreferrer" href="https://uptaskproject.netlify.app/">View Website</a>
+                                    </span>
+                                </button>
+                                <button className='button-64'>
+                                    <span className="text">
+                                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Bena90/MERN_Uptask_Frontend">View Github Front</a>
+                                    </span>
+                                </button>
+                                <button className='button-64'>
+                                    <span className="text">
+                                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Bena90/MERN_Uptask_Backend">View Github Back</a>
                                     </span>
                                 </button>
                             </div>
@@ -134,6 +173,35 @@ export const Portfolio  = () => {
                                 <button className='button-64'>
                                     <span className="text">
                                         <a target="_blank" rel="noopener noreferrer" href="https://github.com/Bena90/cryptoprice">View Github</a>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='projectsCard'>
+                        <div className='imagesContainer'>
+                            <img className='projectsImg' width={400} src='/citas.png' alt='roccoto' />
+                        </div>
+                        <div className='infoContainer'>
+                            <h3>Citas Appets</h3>
+                            <p> 
+                                I want to present you a simple application for veterinary patients made with React, Formik and Tailwind.
+                            </p>
+                            <p>
+                            💻​​ Languages and tools used: 
+                            </p>
+                            <p>
+                                | <SvgReact/> React JS | <SvgTailwind /> Tailwind |
+                            </p>
+                            <div className='portfolioButtonContainer'>
+                                <button className='button-64'>
+                                    <span className="text">
+                                        <a target="_blank" rel="noopener noreferrer" href="https://citasappets.netlify.app/">View Website</a>
+                                    </span>
+                                </button>
+                                <button className='button-64'>
+                                    <span className="text">
+                                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Bena90/citasappets">View Github</a>
                                     </span>
                                 </button>
                             </div>
